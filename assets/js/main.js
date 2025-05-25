@@ -27,8 +27,18 @@
 
 		//===== For Scroll Animation
         AOS.init();
+			
 		
 
+		$(document).ready(function() {
+			$('.contact_btn').on('click', function(e) {
+			e.preventDefault();
+			var target = $(this).attr('href');
+			$('html, body').animate({
+				scrollTop: $(target).offset().top
+			}, 400);
+			});
+		});
 
 
 	});

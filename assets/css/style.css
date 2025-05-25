@@ -171,11 +171,10 @@ a, button, input, textarea{
     border-bottom: 3px solid #EA010A;
 }
 .solution-list {
-    padding-top: 30px;
-    padding-bottom: 45px;
+    padding-top: 25px;
+    padding-bottom: 40px;
     border-bottom: 3px solid #EA010A;
 }
-
 .solution-list ul {
     display: flex;
     align-items: center;
@@ -264,6 +263,7 @@ footer {
     font-size: 15px;
     color: #0E0707;
     margin: 0;
+    opacity: .7;
 }
 .contact-form input {
     width: 100%;
@@ -277,7 +277,7 @@ footer {
     transition: .3s;
 }
 .contact-form input::placeholder{
-    opacity: 1;
+    opacity: .6;
     color: #0E0707;
     transition: .3s;
 }
@@ -296,7 +296,7 @@ footer {
     transition: .3s;
 }
 .contact-form textarea::placeholder{
-    opacity: 1;
+    opacity: .6;
     color: #0E0707;
     transition: .3s;
 }
@@ -330,4 +330,7 @@ footer {
     color: #0E0707;
     font-weight: 500;
     margin-bottom: 20px;
+}
+.copyright-wrap{
+    display: none;
 }
