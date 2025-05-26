@@ -130,9 +130,6 @@ a, button, input, textarea{
     display: inline-block;
     transition: .3s ease;
 }
-.hero-content a:hover{
-    transform: rotate(-45deg);
-}
 .hero-content a img {
     width: 55px;
 }
@@ -263,7 +260,6 @@ footer {
     font-size: 15px;
     color: #0E0707;
     margin: 0;
-    opacity: .7;
 }
 .contact-form input {
     width: 100%;
@@ -277,12 +273,9 @@ footer {
     transition: .3s;
 }
 .contact-form input::placeholder{
-    opacity: .6;
+    opacity: .5;
     color: #0E0707;
     transition: .3s;
-}
-.contact-form input:focus::placeholder{
-    opacity: 0;
 }
 .contact-form textarea {
     width: 100%;
@@ -296,12 +289,9 @@ footer {
     transition: .3s;
 }
 .contact-form textarea::placeholder{
-    opacity: .6;
+    opacity: .5;
     color: #0E0707;
     transition: .3s;
-}
-.contact-form textarea:focus::placeholder{
-    opacity: 0;
 }
 .contact-form button {
     background: #EA010A;
